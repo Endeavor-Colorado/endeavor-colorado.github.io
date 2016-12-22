@@ -58,7 +58,7 @@ button {
 	color: #333;
 	text-align: center;
 	position: relative;
-	top: 15%;
+	top: 30%;
 	font-size: 1.5em;
 }
 
@@ -85,7 +85,7 @@ button {
 	width: 100%;
 	text-align: center;
 	padding: 0px;
-	margin: 40px 0 0 0;
+	margin: 90px 0 0 0;
 	
 }
 
@@ -101,8 +101,8 @@ button {
 .footer a {
 	
 }
-.container.mainImage {
-	height: 215px;
+.container-fluid.mainImage {
+	height: 250px;
 	width: 100%;
 	background-image: url(/img/sea-black-and-white-bridge-suspension-bridge.jpeg);
 	background-size: contain;
