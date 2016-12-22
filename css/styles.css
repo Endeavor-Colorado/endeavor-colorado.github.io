@@ -30,7 +30,8 @@
 .title {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	font-size: 8em;
+	font-size: 4em;
+	margin: 40px 0 0 0;
 	animation: dropin 2s ease-in-out;
 }
 
@@ -38,7 +39,7 @@
 	text-align: center;
 	color:#FFF;
 	margin: 0;
-	font-size: 4em
+	font-size: 2em
 }
 .image {
 	width: 100%;
@@ -46,19 +47,19 @@
 
 button {
 	position: relative;
-	left: 89%;
-	top: -200px;
+	left: 85% ;
+	top: -140px;
 	
 }
 .glyphicon {
-	font-size: 3em;
+	font-size: 1em;
 }
 .tagline {
 	color: #333;
 	text-align: center;
 	position: relative;
-	top: 30%;
-	font-size: 3em;
+	top: 10%;
+	font-size: 1.5em;
 }
 
 .tag {
@@ -79,12 +80,12 @@ button {
 	font-size: 3em
 }
 .footer {
-	display: inline-block;
+	display: inline-flex;
 	background-color: #151515;
 	width: 100%;
 	text-align: center;
-	padding: 10px;
-	margin: 40px 0 0 0;
+	padding: 0px;
+	margin: 0;
 	
 }
 
@@ -93,9 +94,9 @@ button {
 }
 .footer li {
 	display: inline;
-	margin: 0 40px;
+	margin: 0 10px;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 .footer a {
 	
@@ -104,7 +105,8 @@ button {
 	height: 400px;
 	width: 100%;
 	background-image: url(/img/sea-black-and-white-bridge-suspension-bridge.jpeg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 @media screen and (max-width: 728px) {
 	button {
