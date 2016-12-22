@@ -1,0 +1,113 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+@keyframes dropin {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+		transform-origin: bottom;
+	}
+	50% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+.background {
+	
+	background-size: cover;
+	height: 100vw;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+}
+.title {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 8em;
+	animation: dropin 2s ease-in-out;
+}
+
+.sub-title {
+	text-align: center;
+	color:#FFF;
+	margin: 0;
+	font-size: 4em
+}
+.image {
+	width: 100%;
+}
+
+button {
+	position: relative;
+	left: 89%;
+	top: -200px;
+	
+}
+.glyphicon {
+	font-size: 3em;
+}
+.tagline {
+	color: #333;
+	text-align: center;
+	position: relative;
+	top: 30%;
+	font-size: 3em;
+}
+
+.tag {
+	font-size: 4em;
+}
+.thumb {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+.jumbotron {
+	
+	
+}
+.text {
+	text-indent: 30px;
+	text-align: justify;
+	margin: 60px 10px;
+	font-size: 3em
+}
+.footer {
+	display: inline-block;
+	background-color: #151515;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	margin: 40px 0 0 0;
+	
+}
+
+.footer ul {
+
+}
+.footer li {
+	display: inline;
+	margin: 0 40px;
+	color: #fff;
+	font-size: 2em;
+}
+.footer a {
+	
+}
+.container.mainImage {
+	height: 400px;
+	width: 100%;
+	background-image: url(/img/sea-black-and-white-bridge-suspension-bridge.jpeg);
+	background-size: cover;
+}
+@media screen and (max-width: 728px) {
+	button {
+		display: none;
+	}
+}
