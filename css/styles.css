@@ -85,7 +85,7 @@ button {
 	width: 100%;
 	text-align: center;
 	padding: 0px;
-	margin: 0;
+	margin: 40px 0;
 	
 }
 
@@ -102,7 +102,7 @@ button {
 	
 }
 .container.mainImage {
-	height: 400px;
+	height: 215px;
 	width: 100%;
 	background-image: url(/img/sea-black-and-white-bridge-suspension-bridge.jpeg);
 	background-size: contain;
