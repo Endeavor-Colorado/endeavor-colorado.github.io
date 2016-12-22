@@ -28,6 +28,7 @@
 	top: 0;
 }
 .title {
+	color: #fff;
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	font-size: 4em;
@@ -37,7 +38,7 @@
 
 .sub-title {
 	text-align: center;
-	color:#FFF;
+	color: #000;
 	margin: 0;
 	font-size: 2em
 }
@@ -47,7 +48,7 @@
 
 button {
 	position: relative;
-	left: 85% ;
+	left: 90% ;
 	top: -140px;
 	
 }
