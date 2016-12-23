@@ -1,9 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
 
-/* entypo */
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-}
 @keyframes dropin {
 	0% {
 		opacity: 0;
@@ -118,8 +113,15 @@ margin: 10px auto;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-@media screen and (max-width: 728px) {
+@media screen and (min-width: 728px) {
 	button {
 		display: none;
+	}
+	.title {
+		font-size: 6em;
+		text-align: left;
+	}
+	.subtitle {
+		text-align: left;
 	}
 }
