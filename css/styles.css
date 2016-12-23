@@ -97,6 +97,7 @@ button {
 .footer ul {
 margin: 10px 0;
 	text-align: center;
+	padding: 0;
 }
 .footer li {
 	display: inline;
