@@ -44,6 +44,7 @@
 }
 .image {
 	width: 100%;
+	z-index: -1;
 }
 
 button {
@@ -59,7 +60,8 @@ button {
 	color: #333;
 	text-align: center;
 	position: relative;
-	top: 30%;
+	z-index: 5;
+	top: -180px;
 	font-size: 1.5em;
 }
 
@@ -85,17 +87,17 @@ button {
 	background-color: #151515;
 	width: 100%;
 	text-align: center;
-	padding: 0px;
+	padding: 10px;
 	margin: 90px 0 0 0;
 	
 }
 
 .footer ul {
-
+margin: 10px auto;
 }
 .footer li {
 	display: inline;
-	margin: 0 10px;
+	margin: 10px 30px;
 	color: #fff;
 	font-size: 1.5em;
 }
@@ -105,7 +107,6 @@ button {
 .container-fluid.mainImage {
 	height: 250px;
 	width: 100%;
-	background-image: url(/img/sea-black-and-white-bridge-suspension-bridge.jpeg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
