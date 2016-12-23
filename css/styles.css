@@ -40,11 +40,13 @@
 	text-align: center;
 	color: #000;
 	margin: 0;
-	font-size: 2em
+	font-size: 2em;
+	animation: dropin 2s ease-in-out;
 }
 .image {
 	width: 100%;
 	z-index: -1;
+	box-shadow: 0 5px 10px;
 }
 
 button {
@@ -55,6 +57,10 @@ button {
 }
 .glyphicon {
 	font-size: 1em;
+}
+.description {
+	padding: 10px 0;
+	margin: 15px 0;
 }
 .tagline {
 	color: #333;
@@ -72,10 +78,11 @@ button {
 	height: 150px;
 	width: 100%;
 	margin: 10px 0 0 0;
+	box-shadow: 0 5px 10px
 }
 .jumbotron {
-	
-	
+	z-index: 4;
+	box-shadow: 0 5px 10px;
 }
 .text {
 	text-indent: 30px;
