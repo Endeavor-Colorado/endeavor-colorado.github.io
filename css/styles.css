@@ -86,23 +86,24 @@ button {
 	font-size: 3em
 }
 .footer {
-	display: inline-flex;
+	display: inline-block;
 	background-color: #151515;
 	width: 100%;
-	text-align: center;
 	padding: 10px;
 	margin: 90px 0 0 0;
 	
 }
 
 .footer ul {
-margin: 10px auto;
+margin: 10px 0;
+	text-align: center;
 }
 .footer li {
 	display: inline;
 	margin: 10px 30px;
 	color: #fff;
 	font-size: 1.5em;
+	
 }
 .footer a {
 	
